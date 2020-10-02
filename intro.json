@@ -1,4 +1,5 @@
-
+{
+    "Description": "This template deploys a VPC, with 1 public and private subnet spread across 2 Availability Zones.",
 "Parameters": {
   "EnvironmentName": {
     "Description": "An environment name that will be prefixed to resource names",
@@ -248,5 +249,5 @@
             }
         }
     },
-
+  }
 }
